@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Excuse Letter</title>
+  <link rel="stylesheet" href="Letter.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="user-info">Samantha J.</div>
+      <nav class="sidebar-nav">
+        <a href="#">Home</a>
+        <a href="#" class="active">Attendance</a>
+        <a href="#">Grades</a>
+        <a href="#">Financials</a>
+        <a href="#">Registration</a>
+        <a href="#">Academic records</a>
+        <a href="#">Degree progress</a>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <h1>Excuse Letter</h1>
+      <p class="description">You can submit an excuse letter for an attendance record after the class has ended. You can also download a copy of your attendance record at any time.</p>
+      
+      <h2>Excuse letter status</h2>
+      <table class="status-table">
+        <thead>
+          <tr>
+            <th>Class</th>
+            <th>Date</th>
+            <th>Excuse status</th>
+            <th>Excuse reason</th>
+            <th>Download</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Economics 101</td>
+            <td>04/11/2023</td>
+            <td><span class="status pending">Pending</span></td>
+            <td>Doctor's note</td>
+            <td><a href="#">Download</a></td>
+          </tr>
+          <tr>
+            <td>Economics 101</td>
+            <td>04/09/2023</td>
+            <td><span class="status approved">Approved</span></td>
+            <td>Family emergency</td>
+            <td><a href="#">Download</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <button class="submit-button">Submit a new excuse letter</button>
+    </main>
+  </div>
+</body>
+</html>
