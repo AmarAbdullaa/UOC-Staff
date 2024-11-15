@@ -6,7 +6,6 @@
   
   body {
     font-family: Arial, sans-serif;
-    background-color: #f3f4f6;
     color: #333;
   }
   
@@ -56,7 +55,6 @@
     background: white;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
   
   .main-content h1 {
@@ -96,7 +94,12 @@
     background-color: #2563eb;
   }
   
-  
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+  }
   
   .footer a {
     color: #888;
