@@ -11,9 +11,9 @@
   }
   
   .container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
+    max-width: 100%;
+   
+    
   }
   
   .header {
@@ -96,12 +96,7 @@
     background-color: #2563eb;
   }
   
-  .footer {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 14px;
-    color: #888;
-  }
+  
   
   .footer a {
     color: #888;
